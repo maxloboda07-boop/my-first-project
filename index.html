@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кі-223</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: tomato;
+        }
+
+        ol {
+            text-align: left;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        img {
+            max-width: 50%;
+            height: 200;
+            width: 100;
+            border-radius: 20px;
+        }
+
+        .button {
+            background-color: tomato;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: darkred;
+        }
+
+        footer {
+            margin-top: 30px;
+        }
+
+        /* 📱 Адаптація під телефони */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .button {
+                width: 100%;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Кі-223 — весела група</h1>
+        </header>
+
+        <section>
+            <h2>Що любить Кі-223</h2>
+            <ol>
+                <li>Ми любимо Вадима Григоровича Задніпровського</li>
+                <li>Ми любимо перекури</li>
+                <li>Ми любимо їсти</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Фото групи</h3>
+            <img src="./img/photo_2025-10-22_09-07-00.jpg" alt="Фото групи">
+            <br><br>
+            <button class="button">Зв’язатися з куратором Кі-223</button>
+        </section>
+    </main>
+
+    <footer>
+        <p style="color: blue;">Це кінець сайту Кі-223</p>
+    </footer>
+</body>
+</html>
